@@ -57,7 +57,7 @@ const Data = () => {
                 </svg>
                 </h1>
                 <h3 className="home__subtitle"> Front-End Developer</h3>
-                <p className="home__description">Pursuing B.tech Degree| Upskilling in learning technologies like HTML, CSS, Javascript, ReactJS and many more | Open Source contributor | Front-End Developer</p>
+                <p className="home__description">Pursuing B.tech Degree| Upskilling in learning technologies like Javascript, ReactJS, React Native and many more | Open Source contributor | Front-End Developer</p>
 
                 <a href="#contact" className='button button--flex'>Contact Me
                     {/* send button svg button below */}
