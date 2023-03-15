@@ -5,7 +5,8 @@ import './Projects.css';
 const Projects = () => {
   return (
     <section id="projects">
-      projects
+      <h2 className="section__title">My Projects</h2>
+      <span className='section__subtitle' ></span>
     </section>
   )
 }
