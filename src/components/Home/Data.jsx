@@ -4,7 +4,7 @@ import Hand from './../../assets/hand.svg';
 const Data = () => {
     return (
         <div className="home__data">
-            <h1 className="home__title">Gorrrr deer 🦌
+            <h1 className="home__title">Yash Gaur
                 {/* hand svg file below */}
                 <svg
                     width="36"
