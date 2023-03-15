@@ -1,6 +1,7 @@
 import React from 'react'
 import './Services.css'
 
+
 const Services = () => {
   return (
     <section className="services section" id="services">
@@ -14,6 +15,14 @@ const Services = () => {
                 <i className="uil uil services__icon"></i>
 
                 <h3 className="services__title">ff</h3>
+            </div>
+
+            <span className="services__button">View More <i class='bx bx-right-arrow-alt'></i></span>
+
+            <div className="services__modal">
+                <div className="services__modal-content">
+                <i class="fa-regular fa-xmark services__modal-close"></i>
+                </div>
             </div>
         </div>
       </div>
