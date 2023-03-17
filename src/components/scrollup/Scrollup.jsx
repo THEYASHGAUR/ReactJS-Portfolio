@@ -3,12 +3,12 @@ import './Scrollup.css';
 
 const Scrollup = () => {
 
-    window.addEventListener("scroll", function () {
-        const scrollUp = document.querySelector(".scrollup");
+    // window.addEventListener("scroll", function () {
+    //     const scrollUp = document.querySelector(".scrollup");
 
-        if (this.scrollY >= 560) scrollUp.classList.add("scrollup");
-        else scrollUp.classList.remove("scrollup");
-    });
+    //     if (this.scrollY >= 560) scrollUp.classList.add(".scrollup");
+    //     else scrollUp.classList.remove("scrollup");
+    // });
 
 
   return (
