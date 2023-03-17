@@ -172,18 +172,7 @@ const Services = () => {
                     i build user interface for the users.
                   </p>
                 </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    i build user interface for the users.
-                  </p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    i build user interface for the users.
-                  </p>
-                </li>
+                
               </ul>
             </div>
           </div>
