@@ -22,7 +22,7 @@
 }
 
 .home__social-icon:hover {
-    color: var(--title-color-dark);
+    color: blue;
 }
 
 .home__title {
