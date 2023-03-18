@@ -9,6 +9,7 @@ const Frontend = () => {
                 <div className="skills__group">
                     <div className="skills__data">
                         <i class='bx bx-badge-check'></i>
+                        <i class="fa-solid fa-badge-check"></i>
                         <div>
                             <h3 className="skills__name">HTML</h3>
                             <span className="skills__level">Basic</span>
