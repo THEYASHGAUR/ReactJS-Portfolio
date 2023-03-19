@@ -1,6 +1,6 @@
 import React from 'react'
 import './Projects.css';
-import Works from './Works';
+import Works from './Works.jsx';
 
 
 const Projects = () => {
@@ -10,7 +10,9 @@ const Projects = () => {
       <span className='section__subtitle' >Most Recent Work</span>
 
 
-      <Works />
+            <Works />
+
+            
     </section>
 
   )
