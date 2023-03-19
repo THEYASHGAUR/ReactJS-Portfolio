@@ -6,18 +6,18 @@ import WorkItems from './WorkItems';
 const Works = () => {
 
     const [item , setItem] = useState({name: 'all'});
-    const [projects , setprojects] = useState({});
+    const [projects , setProjects] = useState({});
     const [active , setActive] = useState(0);
 
     useEffect(() =>{
         if(item.name === 'All'){
-            setprojects(projectsData);
+            setProjects(projectsData);
         }
         else{
             const newProjects = projectsData.filter((project) => {
                 return project.category === item.name;
             });
-            setprojects(newProjects);
+            setProjects(newProjects);
         }
     },[item]);
 
