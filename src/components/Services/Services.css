@@ -1,6 +1,6 @@
 #services {
     background-color: #f7f7f7;
-    height: 100vh;
+    
 }
 
 .services__container {
@@ -138,9 +138,6 @@
     
 }
 @media screen  and (max-width:425px){
-    #services{
-        height: 120vh;
-    }
     .services__container{
         grid-template-columns: repeat(1,1fr);
     }

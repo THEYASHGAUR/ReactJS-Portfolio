@@ -15,7 +15,7 @@
 
 }
 .nav__logo,
-.nav__toggler{
+.nav__toggle{
     color: var(--title-color);
     font-weight: var(--font-medium);
 }
