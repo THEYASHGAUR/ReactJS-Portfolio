@@ -74,7 +74,6 @@ const Services = () => {
         </div>
         <div className="services__content">
           <div>
-            <i className="uil uil-arrow services__icon"></i>
             <i class="fa-solid fa-pen-clip services__icon"></i>
             <h3 className="services__title">UI/UX Designer</h3>
           </div>
