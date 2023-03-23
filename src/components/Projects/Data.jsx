@@ -26,7 +26,7 @@ export const projectsData = [
         id:3,
         image: Work3,
         title: 'Weather App',
-        category: 'frontend',
+        category: 'API Based',
         demoLink: 'https://weather-app-new-six.vercel.app/',
         github: 'https://github.com/THEYASHGAUR/Weather-App'
     },
@@ -42,7 +42,7 @@ export const projectsData = [
         id:5,
         image: Work5,
         title: 'To Do List App',
-        category: 'UI / UX',
+        category: 'Frontend',
         demoLink: 'https://to-do-list-by-yashgaur.netlify.app/',
         github:'https://github.com/THEYASHGAUR/To-Do-List-using-ReactJS'
     },
@@ -50,7 +50,7 @@ export const projectsData = [
         id:5,
         image: Work6,
         title: 'QR Code Generator',
-        category: 'UI / UX',
+        category: 'API Based',
         demoLink: 'https://qr-code-generator-by-yash-gaur.netlify.app/',
         github:'https://github.com/THEYASHGAUR/QR-Code-Generator'
     }
@@ -65,7 +65,7 @@ export const ProjectsNav = [
         name : 'Frontend',
     },
     {
-        name : 'Backend',
+        name : 'API Based',
     },
     {
         name : 'UI / UX',
