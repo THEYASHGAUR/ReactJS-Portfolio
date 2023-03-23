@@ -3,6 +3,7 @@ import Work2 from '../../assets/portfolio.png';
 import Work3 from '../../assets/weather__app.png';
 import Work4 from '../../assets/notes_taking_website.png';
 import Work5 from '../../assets/to_do_list.png';
+import Work6 from '../../assets/qr code generator.png';
 
 export const projectsData = [
     {
@@ -44,6 +45,14 @@ export const projectsData = [
         category: 'UI / UX',
         demoLink: 'https://to-do-list-by-yashgaur.netlify.app/',
         github:'https://github.com/THEYASHGAUR/To-Do-List-using-ReactJS'
+    },
+    {
+        id:5,
+        image: Work6,
+        title: 'QR Code Generator',
+        category: 'UI / UX',
+        demoLink: 'https://qr-code-generator-by-yash-gaur.netlify.app/',
+        github:'https://github.com/THEYASHGAUR/QR-Code-Generator'
     }
     
 ]
