@@ -4,6 +4,7 @@ import Work3 from '../../assets/weather__app.png';
 import Work4 from '../../assets/notes_taking_website.png';
 import Work5 from '../../assets/to_do_list.png';
 import Work6 from '../../assets/qr code generator.png';
+import Work7 from '../../assets/speech_to_text_convertor.png';
 
 export const projectsData = [
     {
@@ -19,7 +20,7 @@ export const projectsData = [
         image: Work2,
         title: 'Portfolio Website',
         category: 'Frontend',
-        demoLink: 'https://yash-portfolio.onrender.com/',
+        demoLink: '',
         github: 'https://github.com/THEYASHGAUR/ReactJS-Portfolio'
     },
     {
@@ -53,6 +54,14 @@ export const projectsData = [
         category: 'API Based',
         demoLink: 'https://qr-code-generator-by-yash-gaur.netlify.app/',
         github:'https://github.com/THEYASHGAUR/QR-Code-Generator'
+    },
+    {
+        id:6,
+        image: Work7,
+        title: 'Speech to Text Convertor',
+        category: 'Frontend',
+        demoLink: 'https://speech-to-text-convertor-yg.netlify.app/',
+        github:'https://github.com/THEYASHGAUR/Speech-to-text-Convertor'
     }
     
 ]
