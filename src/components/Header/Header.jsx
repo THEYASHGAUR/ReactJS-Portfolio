@@ -1,8 +1,17 @@
 import React, { useState } from 'react';
+import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
+import PersonIcon from '@mui/icons-material/Person';
+import DescriptionOutlinedIcon from '@mui/icons-material/DescriptionOutlined';
+import HomeRepairServiceOutlinedIcon from '@mui/icons-material/HomeRepairServiceOutlined';
+import FileCopyOutlinedIcon from '@mui/icons-material/FileCopyOutlined';
+import AppsOutlinedIcon from '@mui/icons-material/AppsOutlined';
+import RecentActorsIcon from '@mui/icons-material/RecentActors';
+import CloseIcon from '@mui/icons-material/Close';
 import './Header.css';
 
 const Header = () => {
     const [Toggle, showMenu] = useState(false);
+
 
     return (
         <header className='header'>
@@ -12,41 +21,49 @@ const Header = () => {
                     <ul className="nav__list grid">
                         <li className="nav__item">
                             <a href="#home" className='nav__link active-link'>
-                                <i className='uil uil-estate nav__icon'></i>Home
+                                <HomeOutlinedIcon />
+                                Home
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#about" className='nav__link'>
-                                <i className='uil uil-user nav__icon'></i>About
+                                <PersonIcon />
+                                About
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#skills" className='nav__link'>
-                                <i className='uil uil-file-alt  nav__icon'></i>Skills
+                                <DescriptionOutlinedIcon />
+                                Skills
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#services" className='nav__link'>
-                                <i className='uil uil-briefcase-alt nav__icon'></i>Services
+                                <HomeRepairServiceOutlinedIcon />
+                                Services
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#projects" className='nav__link'>
-                                <i className='uil uil-scenery nav__icon'></i>Projects
+                                <FileCopyOutlinedIcon />
+                                Projects
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#contact" className='nav__link'>
-                                <i className='uil uil-message nav__icon'></i>Contact
+                                <RecentActorsIcon className='nav__icon' />Contact
+                                {/* <i className='uil uil-message nav__icon'></i>Contact */}
                             </a>
                         </li>
                     </ul>
-                    <i className='uil uil-times nav__close' onClick={() => showMenu(!Toggle)}></i>
+                    {/* <i className='uil uil-times nav__close' onClick={() => showMenu(!Toggle)}></i> */}
+                    <CloseIcon className='nav__close'/>
                     
                 </div>
 
                 <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
-                    <i className='uil uil-apps'></i>
+                    {/* <i className='uil uil-apps'></i> */}
+                    <AppsOutlinedIcon />
                     
                 </div>
 
