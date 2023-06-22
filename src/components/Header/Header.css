@@ -35,11 +35,14 @@
     font-weight: var(--font-medium);
     transition: .3s;
 }
-.nav__close, 
+
+.nav__close,
 .nav__icon,
 .nav__toggle{
-    display: none;
+    display: none !important; 
+    /* visibility:hidden; */
 }
+
 
 
 /* active link */
@@ -101,7 +104,7 @@
     .nav__icon,
     .nav__toggle,
     .nav__close{
-        display: block;
+        display: block !important;
     }
     .nav__close{
         margin: 100px;

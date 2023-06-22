@@ -21,31 +21,31 @@ const Header = () => {
                     <ul className="nav__list grid">
                         <li className="nav__item">
                             <a href="#home" className='nav__link active-link'>
-                                <HomeOutlinedIcon />
+                                <HomeOutlinedIcon className='nav__icon' />
                                 Home
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#about" className='nav__link'>
-                                <PersonIcon />
+                                <PersonIcon  className='nav__icon'/>
                                 About
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#skills" className='nav__link'>
-                                <DescriptionOutlinedIcon />
+                                <DescriptionOutlinedIcon className='nav__icon' />
                                 Skills
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#services" className='nav__link'>
-                                <HomeRepairServiceOutlinedIcon />
+                                <HomeRepairServiceOutlinedIcon className='nav__icon' />
                                 Services
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#projects" className='nav__link'>
-                                <FileCopyOutlinedIcon />
+                                <FileCopyOutlinedIcon className='nav__icon'  />
                                 Projects
                             </a>
                         </li>
