@@ -10,7 +10,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import './Header.css';
 
 const Header = () => {
-    const [Toggle, showMenu] = useState(false);
+    const [Toggle, showMenu] = useState(true);
 
 
     return (

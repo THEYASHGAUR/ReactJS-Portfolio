@@ -2,8 +2,8 @@ import Work1 from '../../assets/movie_world.png';
 import Work2 from '../../assets/portfolio.png';
 import Work3 from '../../assets/weather__app.png';
 import Work4 from '../../assets/notes_taking_website.png';
-import Work5 from '../../assets/to_do_list.png';
-import Work6 from '../../assets/qr code generator.png';
+import Work5 from '../../assets/to-do-app.png';
+import Work6 from '../../assets/qr-code-2.png';
 import Work7 from '../../assets/speech_to_text_convertor.png';
 
 export const projectsData = [
