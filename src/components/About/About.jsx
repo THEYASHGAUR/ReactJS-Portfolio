@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import AboutImg from '../../assets/pic.jpg';
+// import AboutImg from '../../assets/pic.jpg';
 import CV from '../../assets/Yash_Gaur_Resume_10.pdf';
 import Info from './Info';
 
@@ -11,7 +11,10 @@ const About = () => {
       <span className="section__subtitle">My Introduction</span>
 
       <div className="about__container container grid">
-        <img src={AboutImg} alt="" className='about__img' />
+        {/* <img src={AboutImg} alt="" className='about__img' />
+         */}
+         <video src="../../assets/man-working.mp4"></video>
+         
         <div className="about__data">
           <Info />
           <p className="about__description">Pursuing B.tech Degree| Upskilling in learning technologies like Javascript, ReactJS, React Native and many more | Open Source contributor | Front-End Developer</p>
