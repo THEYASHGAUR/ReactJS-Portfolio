@@ -2,7 +2,7 @@ import Work1 from '../../assets/movie_world.png';
 import Work2 from '../../assets/portfolio.png';
 import Work3 from '../../assets/weather__app.png';
 import Work4 from '../../assets/notes_taking_website.png';
-// import Work5 from '../../assets/to-do-app.png';
+import Work5 from '../../assets/work1.jpg';
 import Work6 from '../../assets/qr-code-2.png';
 import Work7 from '../../assets/speech_to_text_convertor.png';
 import Work8 from '../../assets/cli.jpg';
@@ -41,14 +41,14 @@ export const projectsData = [
         demoLink: 'https://notes-taking-application.netlify.app/',
         github: 'https://github.com/THEYASHGAUR/Notes-taking-Website'
     },
-    // {
-    //     id:5,
-    //     image: Work5,
-    //     title: 'To Do List App',
-    //     category: 'backend',
-    //     demoLink: 'https://to-do-list-by-yashgaur.netlify.app/',
-    //     github:'https://github.com/THEYASHGAUR/To-Do-List-using-ReactJS'
-    // },
+    {
+        id:5,
+        image: Work5,
+        title: 'Dall-e Clone',
+        category: 'Full Stack',
+        demoLink: 'https://dall-e-clonee.netlify.app',
+        github:'https://github.com/THEYASHGAUR/Dall-e-Clone'
+    },
     {
         id:6,
         image: Work6,
