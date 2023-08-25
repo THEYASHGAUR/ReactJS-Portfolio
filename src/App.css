@@ -116,6 +116,11 @@ img {
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
   padding: 6rem 0 2rem;
+  /* background: linear-gradient(
+    to right,
+    #F4D06F ,
+    #fff 
+  ); */
 }
 
 .section__title {
@@ -139,6 +144,7 @@ img {
   max-width: 968px;
   margin-left: auto;
   margin-right: auto;
+  /* background-color: fuchsia; */
 }
 
 .grid {
@@ -201,9 +207,8 @@ img {
     margin-bottom: var(--mb-3);
   }
 }
- 
-@media screen and (max-width: 576px) {
-}
+
+@media screen and (max-width: 576px) {}
 
 /* For small devices */
 @media screen and (max-width: 350px) {
