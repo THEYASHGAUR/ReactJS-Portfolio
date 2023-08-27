@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.css';
-// import AboutImg from '../../assets/man-working.mp4';
 import CV from '../../assets/Yash_Gaur_Resume_11.pdf';
 import Info from './Info';
 
