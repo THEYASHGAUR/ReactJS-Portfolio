@@ -4,7 +4,7 @@ import './About.css';
 import CV from '../../assets/Yash_Gaur_Resume_11.pdf';
 import Info from './Info';
 
-import ReactPlayer from 'react-player'
+
 
 const About = () => {
   return (
@@ -13,17 +13,22 @@ const About = () => {
       <span className="section__subtitle">My Introduction</span>
 
       <div className="about__container container grid">
-        {/* <img src={AboutImg} alt="" className='about__img' />
-         */}
-        {/* <video width="100%" height="100%">
-          <source src='../../assets/man-working.mp4' />
-         </video> */}
-        <ReactPlayer
-          url='../../assets/portfolio gif.mp4'
-          controls
-          height="80%"
-          width="80%"
-        />
+      <div className="flex justify-center items-center ">
+        <div className="relative">
+          <div className="overflow-hidden flex  rounded-lg shadow-lg">
+            <video
+            className="object-cover w-full rounded-t-lg md:h-auto   md:rounded-md md:rounded-l-lg md:w-1/2  "
+              autoPlay
+              muted
+              loop
+            >
+              <source src="./bg.mp4" type="video/mp4" />
+            </video>
+    
+          </div>
+        </div>
+      </div>
+       
 
         <div className="about__data">
           <Info />
