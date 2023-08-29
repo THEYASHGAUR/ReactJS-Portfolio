@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+// import AboutImg from '../../assets/man-working.mp4';
 import CV from '../../assets/Yash_Gaur_Resume_11.pdf';
 import Info from './Info';
 
@@ -12,8 +13,8 @@ const About = () => {
       <span className="section__subtitle">My Introduction</span>
 
       <div className="about__container container grid">
-      <div className="flex justify-center items-center ">
-        <div className="relative">
+      <div className="about-video ">
+        <div className="about-video-content">
           <div className="overflow-hidden flex  rounded-lg shadow-lg">
             <video
             className="object-cover w-full rounded-t-lg md:h-auto   md:rounded-md md:rounded-l-lg md:w-1/2  "

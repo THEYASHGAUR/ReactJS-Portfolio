@@ -83,14 +83,13 @@ textarea {
 }
 
 body {
-  background-color: var(--body-color);
-  color: var(--text-color);
+  background-color: #FBE4DB;
+  color: #522B5B;
 }
 
 h1,
 h2,
 h3 {
-  color: var(--title-color);
   font-weight: var(--font-semi-bold);
 }
 
@@ -106,6 +105,7 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+  background-color: #2B124C;
 }
 
 img {
@@ -155,7 +155,7 @@ img {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: var(--title-color);
+  background-color: #2B124C;
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
@@ -163,7 +163,7 @@ img {
 }
 
 .button:hover {
-  background-color: var(--title-color-dark);
+  background-color: #522B5B;
 }
 
 .button__icon {
