@@ -15,14 +15,15 @@ const About = () => {
       <div className="about__container container grid">
       <div className="about-video ">
         <div className="about-video-content">
-          <div className="overflow-hidden flex  rounded-lg shadow-lg">
+          <div>
             <video
-            className="object-cover w-full rounded-t-lg md:h-auto   md:rounded-md md:rounded-l-lg md:w-1/2  "
+              className='video_tag'
+          
               autoPlay
               muted
               loop
             >
-              <source src="./bg.mp4" type="video/mp4" />
+              <source src="./bg.mp4" width="200px" type="video/mp4" />
             </video>
     
           </div>

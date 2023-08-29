@@ -49,6 +49,13 @@
 }
 .about-video-content{
     position: relative;
+    
+}
+.video_tag{
+    height: 400px;
+    width: 400px;
+    padding: 2px;
+    background-color: lightgray;
 }
 .about-video-content-two{
     display: flex;
@@ -95,8 +102,18 @@
     .about__info{
         grid-template-columns: repeat(3,1fr);
     }
+    .video_tag{
+        height: 300px;
+        width: 300px;
+    }
 
     
+}
+@media screen and (max-width:400px){
+    .video_tag{
+        height: 270px;
+        width: 270px;
+    }
 }
 /* for small devices */
 @media screen and (max-width:350px) {
@@ -111,7 +128,7 @@
 @media screen and (min-width:768px) {
     .about-video-content-two video{
         height: auto;
-        width: 50%;
+        /* width: 50%; */
         border-radius: 20%;
     }
     
