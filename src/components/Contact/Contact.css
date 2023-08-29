@@ -1,5 +1,6 @@
 #contact {
     background-color: #f7f7f7;
+    background:linear-gradient(to right,  #fff 50% , lightblue 50%  );
 }
 
 .contact__container {
