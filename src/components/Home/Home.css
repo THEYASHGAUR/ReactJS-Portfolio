@@ -1,6 +1,4 @@
 #home {
-    /* background-color: #fff; */
-    /* background: linear-gradient(#311655, #915977, #DFB6B2, #FBE4DB); */
     background:linear-gradient(to right,  lightblue 50% , #fff 50%  );
     height: 100vh;
 }
