@@ -41,6 +41,11 @@
     display: none !important; 
 }
 
+.nav__buttons button {
+    background-color:whitesmoke;
+    text-align: center;
+}
+
 
 
 /* active link */
