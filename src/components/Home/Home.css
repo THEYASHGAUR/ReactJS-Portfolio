@@ -28,6 +28,7 @@
 .home__title {
     margin-bottom: var(mb-0-25);
     font-size: var(--big-font-size);
+    color: rgb(44, 43, 43);
 
 }
 
@@ -43,12 +44,14 @@
     padding-left: 0.4rem;
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
+    color: rgb(44, 43, 43);
 
 }
 
 .home__description {
     max-width: 400px;
     margin-bottom: var(--mb-3);
+    color: rgb(44, 43, 43);
 
 }
 
