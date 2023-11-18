@@ -31,6 +31,14 @@
     padding: 1rem;
     border-radius: 0.75rem;
     text-align: center;
+    color: var(--section-subtitle);
+    
+}
+.contact__car-title {
+    color: var(--section-subtitle);
+}
+.contact__card-data {
+    color: var(--section-description);
 }
 
 

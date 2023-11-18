@@ -58,6 +58,7 @@
 
 .home__video {
     background: transparent;
+    border-radius: 10px;
 }
 
 .video_tag {
@@ -68,6 +69,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-radius: 10px;
 }
 
 @keyframes profile__animate {
