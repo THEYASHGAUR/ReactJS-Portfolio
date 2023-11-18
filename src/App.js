@@ -1,5 +1,5 @@
 import './App.css';
-import React , {useState} from 'react';
+import React , {useEffect, useState} from 'react';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import About from './components/About/About';
@@ -12,13 +12,24 @@ import Footer from './components/Footer/Footer';
 
 
 const App = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState("light-theme");
+  
 
   const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
+    // setDarkMode(!darkMode);
     console.log("button clicked");
+    if(darkMode === "dark-theme"){
+      setDarkMode("light-theme")
+    }
+    else{
+      setDarkMode("dark-theme");
+    }
+
     
   };
+  useEffect(() => {
+    document.body.className = darkMode;
+  } , [darkMode]);
   return (
     <div  className={`App ${darkMode ? 'dark-mode' : ''}`}>
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />

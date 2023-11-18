@@ -19,7 +19,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
         <header className='header'>
             <nav className="nav container">
                 <a href="index.html" className='nav__logo'>Yash Gaur</a>
-                <button onClick={toggleDarkMode} className='darkmode'>
+                <button onClick={toggleDarkMode} className='darkmode-button'>
                     {darkMode ? <WbSunnyIcon /> : <DarkModeTwoToneIcon />}
                     
                 </button>

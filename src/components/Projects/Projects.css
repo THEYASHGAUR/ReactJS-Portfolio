@@ -1,9 +1,10 @@
 #projects {
     background-color: #fff;
-    background: linear-gradient(to right,
+    /* background: linear-gradient(to right,
             lightblue 50%,
             #fff 50%
-            );
+            ); */
+    background: var(--section-bg);
 }
 
 .works__filters {

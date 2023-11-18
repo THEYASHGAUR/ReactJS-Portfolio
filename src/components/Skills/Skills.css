@@ -1,9 +1,10 @@
 #skills {
-    background-color: #fff;
-    background: linear-gradient(to right,
+    /* background-color: #fff; */
+    background: var(--section-bg);
+    /* background: linear-gradient(to right,
             lightblue 50%,
             #fff 50%
-            );
+            ); */
 }
 
 .skills__container {

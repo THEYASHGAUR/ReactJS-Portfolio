@@ -62,7 +62,7 @@
     --smaller-font-size: 0.75rem;
   }
 }
-.darkmode{
+.darkmode-button{
   color: black;
   padding: 5px;
   background-color: #fff;
@@ -72,9 +72,30 @@
   cursor: pointer;
 }
 
-.dark-mode {
-  background-color: #2c2c2c;
-  color: white;
+.dark-theme {
+  --title-color: #fff;
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --container-color: #323131;
+  --btn-bg: #f3f3f7;
+  --section-bg: #1c1c1c;
+  --section-subtitle:#8b8b8b;
+  --section-description:#fff;
+  --home-title:#fff;
+}
+
+.light-theme {
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --container-color: #fff;
+  --btn-bg: #2b2b2c;
+  --section-bg:linear-gradient(to right,  lightblue 50% , #fff 50%  );
+  --section-subtitle:#383737;
+  --section-description:#383737;
+  --home-title:rgb(44,43,43);
 }
 
 /*=============== BASE ===============*/
@@ -130,11 +151,7 @@ img {
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
   padding: 6rem 0 2rem;
-  /* background: linear-gradient(
-    to right,
-    #F4D06F ,
-    #fff 
-  ); */
+  
 }
 
 .section__title {
@@ -146,6 +163,7 @@ img {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
+  color: var(--section-subtitle);
 }
 
 .section__title,
@@ -169,7 +187,7 @@ img {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: #2b2b2c;
+  background-color: var(--btn-bg);
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
