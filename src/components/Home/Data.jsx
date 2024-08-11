@@ -4,7 +4,7 @@ import React from 'react';
 const Data = () => {
     return (
         <div className="home__data">
-            <h1 className="home__title">Yash Gaur
+            <h1 className="home__title">Yash Gaurasdfklg
                 {/* hand svg file below */}
                 <svg
                     width="36"
